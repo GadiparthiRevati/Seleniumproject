@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="parallel">
+  <test  name="Test parallel">
+    <classes>
+      <class name="testng.PrioritizeTests"/>
+      <class name="testng.InvocationCountTest"/>
+      <class name="testng.TestClass"/>
+      <class name="testng.DependsonMethodTest"/>
+    </classes>
+  </test> <!-- Test parallel -->
+</suite> <!-- parallel -->
